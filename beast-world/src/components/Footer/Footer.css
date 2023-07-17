@@ -1,0 +1,9 @@
+.footer {
+    text-align:left;
+    background-color: palevioletred;
+}
+
+.footer__copy {
+    font: 1rem;
+    color: black;
+}
