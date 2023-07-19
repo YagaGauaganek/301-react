@@ -4,3 +4,14 @@
     justify-content: space-between;
     margin: auto;
 }
+@media(min-width: 500px){
+    .hornedBeast-main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:900px){
+    .hornedBeast-main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
