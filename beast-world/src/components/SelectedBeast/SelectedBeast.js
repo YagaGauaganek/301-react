@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./SelectedBeast.css";
 
 export default function SelectedBeast({modalContent, closeModal}) {
   return (
