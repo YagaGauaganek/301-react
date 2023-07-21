@@ -11,7 +11,7 @@ export default function HornedBeast(props) {
   return (
     <div className='beast'>
       <h2 className='beast-title'>{props.title}</h2>
-      <img className='beast-image' src={props.image_url} alt={props.title} onClick={() => (props.openModal(props.wholebeast))}></img>
+      <img className='beast-image' src={props.image} alt={props.title} onClick={() => (props.openModal(props.wholebeast))}></img>
       <p className='beast__description'>{props.description}</p>
       <p onClick={handleBeastLove}>Has been ❤️ {love} times</p>
       

@@ -1,8 +1,9 @@
 .hornedBeast-main {
     background-color: blanchedalmond;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
+    display: grid;
+    /* justify-content: space-between;
+    margin: auto; */
+    grid-template-columns: 1fr;
 }
 @media(min-width: 500px){
     .hornedBeast-main{
@@ -11,6 +12,11 @@
 }
 
 @media (min-width:900px){
+    .hornedBeast-main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1200px){
     .hornedBeast-main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
